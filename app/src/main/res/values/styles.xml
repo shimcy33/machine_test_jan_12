@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="dashboard_card_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="cardCornerRadius">6dp</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+</resources>

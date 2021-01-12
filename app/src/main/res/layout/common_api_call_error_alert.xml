@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:alpha="0.7"
+    android:background="@drawable/rounded_corner_black_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="30dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="25dp">
+
+
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Error "
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|right">
+
+        <TextView
+            android:id="@+id/tvRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="?attr/actionBarItemBackground"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Retry "
+            android:textColor="@color/green"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tvClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="?attr/actionBarItemBackground"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Close "
+            android:textColor="@color/red"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+</LinearLayout>
